@@ -1,0 +1,23 @@
+body {
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+
+.clickMe, .hoverMe {
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgb(0, 170, 231);
+    color: white;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    padding: 1.4rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+}
+.hoverMe {
+  background-color: rgb(0, 200, 170);
+}
